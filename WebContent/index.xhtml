@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html">
+	<h:body>
+		<h1>
+			Conversor Binário -> Decimal
+		</h1>
+		<h:form>
+			<h:outputLabel value="Digite o numero binario: " for="numero" />
+			<h:inputText id="binario" value="#{conversorBean.numero.binario}"
+				maxlength="8" />
+			<br />
+			<br />
+			<h:commandButton value="Converter" action="#{conversorBean.converter}" />
+		</h:form>
+		<br />
+		<br />
+	
+		<h:outputLabel value="#{conversorBean.numero.mensagem}" />
+		<br />
+		
+		<h:outputLabel for="decimal" value="Valor em decimal: " />
+		<h:outputLabel id="decimal" value="#{conversorBean.numero.decimal}" />
+	
+	</h:body>
+</html>
