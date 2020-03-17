@@ -1,4 +1,4 @@
-# Bin2Dec
+# Bin2Dec - Using Java JSF Pages
 
 **Tier:** 1-Beginner
 
