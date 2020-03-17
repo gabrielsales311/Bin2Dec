@@ -1,4 +1,4 @@
-package br.com.brq.conversor.bean;
+package bean;
 
 public class teste {
 

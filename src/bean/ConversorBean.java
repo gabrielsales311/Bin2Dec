@@ -1,4 +1,4 @@
-package br.com.brq.conversor.bean;
+package bean;
 
 import javax.faces.bean.ManagedBean;
 
